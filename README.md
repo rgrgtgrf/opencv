@@ -16,7 +16,7 @@ public class opencore {
     }
 
     public static void main(String[] args) {
-         System.out.println(Core.VERSION);
+         System.out.println(Core.VERSION);//确认环境是否配置成功
          double[] a=new double[512];
          int count=0;
         Mat src1= Imgcodecs.imread("C:\\Users\\22170\\Desktop\\Lena.jpg");
